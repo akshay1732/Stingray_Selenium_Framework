@@ -1,0 +1,6 @@
+2019/09/23 22:58:02.059 [DEBUG] main (TestBase.java) - Archiving the reports successfully
+2019/09/23 22:58:02.062 [DEBUG] main (TestBase.java) - loading Properties files
+2019/09/23 22:58:02.812 [DEBUG] main (TestBase.java) - loading Properties files successfully
+2019/09/23 22:58:02.812 [DEBUG] main (TestBase.java) - loading extent config file ....
+2019/09/23 22:58:02.819 [DEBUG] main (TestBase.java) - loading reporting drivers ....
+2019/09/23 22:58:02.836 [ERROR] main (BusinessEvents.java) - Error while initializing Suite.xlsx data file . 

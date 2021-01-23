@@ -1,0 +1,109 @@
+2018/05/22 19:26:29.690 [DEBUG] Forwarding newSession on session null to remote (RequestAddCookies.java) - CookieSpec selected: default
+2018/05/22 19:26:29.703 [DEBUG] Forwarding newSession on session null to remote (RequestAuthCache.java) - Auth cache not set in the context
+2018/05/22 19:26:29.706 [DEBUG] Forwarding newSession on session null to remote (PoolingHttpClientConnectionManager.java) - Connection request: [route: {}->http://localhost:16690][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018/05/22 19:26:29.722 [DEBUG] Forwarding newSession on session null to remote (PoolingHttpClientConnectionManager.java) - Connection leased: [id: 0][route: {}->http://localhost:16690][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018/05/22 19:26:29.724 [DEBUG] Forwarding newSession on session null to remote (MainClientExec.java) - Opening connection {}->http://localhost:16690
+2018/05/22 19:26:29.726 [DEBUG] Forwarding newSession on session null to remote (DefaultHttpClientConnectionOperator.java) - Connecting to localhost/127.0.0.1:16690
+2018/05/22 19:26:29.727 [DEBUG] Forwarding newSession on session null to remote (DefaultHttpClientConnectionOperator.java) - Connection established 127.0.0.1:50895<->127.0.0.1:16690
+2018/05/22 19:26:29.728 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0: set socket timeout to 10800000
+2018/05/22 19:26:29.728 [DEBUG] Forwarding newSession on session null to remote (MainClientExec.java) - Executing request POST /session HTTP/1.1
+2018/05/22 19:26:29.728 [DEBUG] Forwarding newSession on session null to remote (MainClientExec.java) - Target auth state: UNCHALLENGED
+2018/05/22 19:26:29.729 [DEBUG] Forwarding newSession on session null to remote (MainClientExec.java) - Proxy auth state: UNCHALLENGED
+2018/05/22 19:26:29.731 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> POST /session HTTP/1.1
+2018/05/22 19:26:29.731 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018/05/22 19:26:29.731 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Content-Length: 122
+2018/05/22 19:26:29.732 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Host: localhost:16690
+2018/05/22 19:26:29.732 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Connection: Keep-Alive
+2018/05/22 19:26:29.732 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+2018/05/22 19:26:29.733 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018/05/22 19:26:29.733 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2018/05/22 19:26:29.733 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018/05/22 19:26:29.734 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 >> "Content-Length: 122[\r][\n]"
+2018/05/22 19:26:29.734 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 >> "Host: localhost:16690[\r][\n]"
+2018/05/22 19:26:29.734 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018/05/22 19:26:29.734 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+2018/05/22 19:26:29.735 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018/05/22 19:26:29.735 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 >> "[\r][\n]"
+2018/05/22 19:26:29.735 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+2018/05/22 19:26:31.146 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018/05/22 19:26:31.146 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 << "Content-Length:832[\r][\n]"
+2018/05/22 19:26:31.147 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018/05/22 19:26:31.147 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 << "[\r][\n]"
+2018/05/22 19:26:31.147 [DEBUG] Forwarding newSession on session null to remote (Wire.java) - http-outgoing-0 << "{"sessionId":"3425005533e6feaa182561826957b8e6","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)","userDataDir":"C:\\Users\\10644853\\AppData\\Local\\Temp\\scoped_dir1436_22667"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"66.0.3359.181","webStorageEnabled":true}}"
+2018/05/22 19:26:31.150 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 << HTTP/1.1 200 OK
+2018/05/22 19:26:31.151 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 << Content-Length:832
+2018/05/22 19:26:31.151 [DEBUG] Forwarding newSession on session null to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018/05/22 19:26:31.154 [DEBUG] Forwarding newSession on session null to remote (MainClientExec.java) - Connection can be kept alive indefinitely
+2018/05/22 19:26:31.160 [DEBUG] Forwarding newSession on session null to remote (PoolingHttpClientConnectionManager.java) - Connection [id: 0][route: {}->http://localhost:16690] can be kept alive indefinitely
+2018/05/22 19:26:31.160 [DEBUG] Forwarding newSession on session null to remote (PoolingHttpClientConnectionManager.java) - Connection released: [id: 0][route: {}->http://localhost:16690][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018/05/22 19:26:31.169 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (RequestAddCookies.java) - CookieSpec selected: default
+2018/05/22 19:26:31.170 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (RequestAuthCache.java) - Auth cache not set in the context
+2018/05/22 19:26:31.170 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (PoolingHttpClientConnectionManager.java) - Connection request: [route: {}->http://localhost:16690][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018/05/22 19:26:31.170 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (PoolingHttpClientConnectionManager.java) - Connection leased: [id: 0][route: {}->http://localhost:16690][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018/05/22 19:26:31.170 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Stale connection check
+2018/05/22 19:26:31.172 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018/05/22 19:26:31.172 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0: set socket timeout to 10800000
+2018/05/22 19:26:31.172 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Executing request POST /session/3425005533e6feaa182561826957b8e6/url HTTP/1.1
+2018/05/22 19:26:31.173 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Target auth state: UNCHALLENGED
+2018/05/22 19:26:31.173 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Proxy auth state: UNCHALLENGED
+2018/05/22 19:26:31.175 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> POST /session/3425005533e6feaa182561826957b8e6/url HTTP/1.1
+2018/05/22 19:26:31.175 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018/05/22 19:26:31.175 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Content-Length: 71
+2018/05/22 19:26:31.175 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Host: localhost:16690
+2018/05/22 19:26:31.176 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Connection: Keep-Alive
+2018/05/22 19:26:31.176 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+2018/05/22 19:26:31.176 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018/05/22 19:26:31.176 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "POST /session/3425005533e6feaa182561826957b8e6/url HTTP/1.1[\r][\n]"
+2018/05/22 19:26:31.176 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018/05/22 19:26:31.176 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+2018/05/22 19:26:31.177 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "Host: localhost:16690[\r][\n]"
+2018/05/22 19:26:31.177 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018/05/22 19:26:31.177 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+2018/05/22 19:26:31.177 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018/05/22 19:26:31.177 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "[\r][\n]"
+2018/05/22 19:26:31.178 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "{"url":"https://www.tutorialspoint.com/selenium/selenium_tutorial.pdf"}"
+2018/05/22 19:26:32.012 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018/05/22 19:26:32.013 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018/05/22 19:26:32.013 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018/05/22 19:26:32.013 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "[\r][\n]"
+2018/05/22 19:26:32.013 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "{"sessionId":"3425005533e6feaa182561826957b8e6","status":0,"value":null}"
+2018/05/22 19:26:32.014 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 << HTTP/1.1 200 OK
+2018/05/22 19:26:32.014 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 << Content-Length:72
+2018/05/22 19:26:32.014 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018/05/22 19:26:32.014 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Connection can be kept alive indefinitely
+2018/05/22 19:26:32.015 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (PoolingHttpClientConnectionManager.java) - Connection [id: 0][route: {}->http://localhost:16690] can be kept alive indefinitely
+2018/05/22 19:26:32.015 [DEBUG] Forwarding get on session 3425005533e6feaa182561826957b8e6 to remote (PoolingHttpClientConnectionManager.java) - Connection released: [id: 0][route: {}->http://localhost:16690][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018/05/22 19:26:32.016 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (RequestAddCookies.java) - CookieSpec selected: default
+2018/05/22 19:26:32.017 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (RequestAuthCache.java) - Auth cache not set in the context
+2018/05/22 19:26:32.017 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (PoolingHttpClientConnectionManager.java) - Connection request: [route: {}->http://localhost:16690][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018/05/22 19:26:32.017 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (PoolingHttpClientConnectionManager.java) - Connection leased: [id: 0][route: {}->http://localhost:16690][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018/05/22 19:26:32.017 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Stale connection check
+2018/05/22 19:26:32.019 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018/05/22 19:26:32.020 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0: set socket timeout to 10800000
+2018/05/22 19:26:32.020 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Executing request GET /session/3425005533e6feaa182561826957b8e6/url HTTP/1.1
+2018/05/22 19:26:32.025 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Target auth state: UNCHALLENGED
+2018/05/22 19:26:32.026 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Proxy auth state: UNCHALLENGED
+2018/05/22 19:26:32.026 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> GET /session/3425005533e6feaa182561826957b8e6/url HTTP/1.1
+2018/05/22 19:26:32.027 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Cache-Control: no-cache
+2018/05/22 19:26:32.027 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Host: localhost:16690
+2018/05/22 19:26:32.027 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Connection: Keep-Alive
+2018/05/22 19:26:32.027 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)
+2018/05/22 19:26:32.028 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018/05/22 19:26:32.028 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "GET /session/3425005533e6feaa182561826957b8e6/url HTTP/1.1[\r][\n]"
+2018/05/22 19:26:32.028 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2018/05/22 19:26:32.028 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "Host: localhost:16690[\r][\n]"
+2018/05/22 19:26:32.028 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018/05/22 19:26:32.029 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_111)[\r][\n]"
+2018/05/22 19:26:32.029 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018/05/22 19:26:32.029 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 >> "[\r][\n]"
+2018/05/22 19:26:32.038 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018/05/22 19:26:32.038 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "Content-Length:131[\r][\n]"
+2018/05/22 19:26:32.039 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018/05/22 19:26:32.039 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "[\r][\n]"
+2018/05/22 19:26:32.039 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (Wire.java) - http-outgoing-0 << "{"sessionId":"3425005533e6feaa182561826957b8e6","status":0,"value":"https://www.tutorialspoint.com/selenium/selenium_tutorial.pdf"}"
+2018/05/22 19:26:32.040 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 << HTTP/1.1 200 OK
+2018/05/22 19:26:32.040 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 << Content-Length:131
+2018/05/22 19:26:32.040 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (LoggingManagedHttpClientConnection.java) - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018/05/22 19:26:32.040 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (MainClientExec.java) - Connection can be kept alive indefinitely
+2018/05/22 19:26:32.041 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (PoolingHttpClientConnectionManager.java) - Connection [id: 0][route: {}->http://localhost:16690] can be kept alive indefinitely
+2018/05/22 19:26:32.041 [DEBUG] Forwarding getCurrentUrl on session 3425005533e6feaa182561826957b8e6 to remote (PoolingHttpClientConnectionManager.java) - Connection released: [id: 0][route: {}->http://localhost:16690][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
